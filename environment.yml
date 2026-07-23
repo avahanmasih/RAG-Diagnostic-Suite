@@ -1,0 +1,24 @@
+name: rag-diagnostic-suite
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - scikit-learn
+  - matplotlib
+  - seaborn
+  - jupyter
+  - notebook
+  - ipykernel
+  - pytorch
+  - faiss-cpu
+  - pip:
+      - transformers>=4.40.0
+      - sentence-transformers>=2.6.0
+      - rank_bm25>=0.2.2
+      - datasets>=2.19.0
+      - pytest>=8.0.0
